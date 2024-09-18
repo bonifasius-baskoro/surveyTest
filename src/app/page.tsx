@@ -1,7 +1,12 @@
 
 
+
 export default function Home() {
   return (
-   <h1>hellow</h1>
+    <div>
+
+    <h1>hellow</h1>
+    </div>
+    
   );
 }
