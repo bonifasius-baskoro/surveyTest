@@ -3,7 +3,7 @@
 import { Model } from 'survey-core'
 import { Survey } from 'survey-react-ui'
 import 'survey-core/defaultV2.css'
-import { json } from '@/app/data/survey_json'
+// import { json } from '@/app/data/survey_json'
 import { json as testJson} from '@/app/data/testSurveyjson'
 import { surveyLocalization } from "survey-core"; 
 import { LayeredLight } from "survey-core/themes";
