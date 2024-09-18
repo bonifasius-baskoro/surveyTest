@@ -4,7 +4,7 @@ export const json = {
     "triggers": [
           {
             "type": "complete",
-            "expression": "{domisili} == 6 || {umur}<18 || {umur} >50 || {itembeli}= ['rumah','motor']"
+            "expression": "{domisili} == 6 || {umur}<18 || {umur} >50 || ({itembeli}= ['rumah','motor'] || {itembeli}= ['motor'] || {itembeli}= ['rumah'])"
             // || {umur}<18 || {umur} >50 || !{itembeli} contains 2
           }
         ],
