@@ -1,6 +1,6 @@
 
 
-import { SurveyComponent } from '../components/Survey';
+import { SurveyComponent } from '../components/Survey2';
 
 
 export default function Survey() {

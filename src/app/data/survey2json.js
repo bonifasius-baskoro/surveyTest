@@ -2,6 +2,11 @@ export const json = {
     "showCompleteButton":false,
     "showCompletedPage":false,
     "questionsOnPageMode": "questionPerPage",
+    "navigateToUrlOnCondition": [
+        {
+        "expression": "{domisili} == 6 ",
+        "url": "/survey"
+        }],
     "triggers": [
           {
             "type": "complete",
